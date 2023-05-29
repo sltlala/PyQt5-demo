@@ -1,7 +1,7 @@
-# GUIdemo2.py
-# Demo2 of GUI by PqYt5
-# Copyright 2021 Youcans, XUPT
-# Crated：2021-10-06
+# GUIdemo.py
+# Demo of GUI by PqYt5
+# Copyright 2023 Sltlala, CUG
+# Crated：2023-05-16
 
 from PyQt5.QtWidgets import QApplication, QMainWindow
 import sys
