@@ -1,0 +1,9 @@
+<RCC>
+  <qresource>
+    <file>../image/icon/帮助.png</file>
+    <file>../image/icon/保存.png</file>
+    <file>../image/icon/关闭（1）.png</file>
+    <file>../image/icon/退出.png</file>
+    <file>../image/icon/相机.png</file>
+  </qresource>
+</RCC>
