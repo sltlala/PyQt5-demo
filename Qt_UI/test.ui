@@ -139,7 +139,7 @@ p, li { white-space: pre-wrap; }
   <action name="actionOpen">
    <property name="icon">
     <iconset>
-     <normaloff>C:/Users/sltlala/.designer/image/icon/文件夹-开.png</normaloff>C:/Users/sltlala/.designer/image/icon/文件夹-开.png</iconset>
+     <normaloff>../image/icon/文件夹-开.png</normaloff>../image/icon/文件夹-开.png</iconset>
    </property>
    <property name="text">
     <string>打开</string>
@@ -148,7 +148,7 @@ p, li { white-space: pre-wrap; }
   <action name="actionSave">
    <property name="icon">
     <iconset>
-     <normaloff>C:/Users/sltlala/.designer/image/icon/保存.png</normaloff>C:/Users/sltlala/.designer/image/icon/保存.png</iconset>
+     <normaloff>../image/icon/保存.png</normaloff>../image/icon/保存.png</iconset>
    </property>
    <property name="text">
     <string>保存</string>
@@ -157,7 +157,7 @@ p, li { white-space: pre-wrap; }
   <action name="actionClose">
    <property name="icon">
     <iconset>
-     <normaloff>C:/Users/sltlala/.designer/image/icon/关闭（1）.png</normaloff>C:/Users/sltlala/.designer/image/icon/关闭（1）.png</iconset>
+     <normaloff>../image/icon/关闭（1）.png</normaloff>../image/icon/关闭（1）.png</iconset>
    </property>
    <property name="text">
     <string>关闭</string>
@@ -166,7 +166,7 @@ p, li { white-space: pre-wrap; }
   <action name="actionQuit">
    <property name="icon">
     <iconset>
-     <normaloff>C:/Users/sltlala/.designer/image/icon/退出.png</normaloff>C:/Users/sltlala/.designer/image/icon/退出.png</iconset>
+     <normaloff>../image/icon/退出.png</normaloff>../image/icon/退出.png</iconset>
    </property>
    <property name="text">
     <string>退出</string>
@@ -184,7 +184,7 @@ p, li { white-space: pre-wrap; }
    </property>
    <property name="icon">
     <iconset>
-     <normaloff>C:/Users/sltlala/.designer/image/icon/设置.png</normaloff>C:/Users/sltlala/.designer/image/icon/设置.png</iconset>
+     <normaloff>../image/icon/设置.png</normaloff>../image/icon/设置.png</iconset>
    </property>
    <property name="text">
     <string>设置</string>
@@ -196,7 +196,7 @@ p, li { white-space: pre-wrap; }
   <action name="actionHelp">
    <property name="icon">
     <iconset>
-     <normaloff>C:/Users/sltlala/.designer/image/icon/帮助.png</normaloff>C:/Users/sltlala/.designer/image/icon/帮助.png</iconset>
+     <normaloff>../image/icon/帮助.png</normaloff>../image/icon/帮助.png</iconset>
    </property>
    <property name="text">
     <string>帮助</string>
