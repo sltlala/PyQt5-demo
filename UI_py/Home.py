@@ -14,7 +14,7 @@ from PyQt5 import QtCore, QtGui, QtWidgets
 class Ui_MainWindow(object):
     def setupUi(self, MainWindow):
         MainWindow.setObjectName("MainWindow")
-        MainWindow.resize(504, 447)
+        MainWindow.resize(504, 426)
         font = QtGui.QFont()
         font.setFamily("微软雅黑")
         font.setPointSize(10)
@@ -49,7 +49,12 @@ class Ui_MainWindow(object):
         self.label_2.setObjectName("label_2")
         self.listView = QtWidgets.QListView(self.splitter)
         self.listView.setObjectName("listView")
-        self.gridLayout_2.addWidget(self.splitter, 0, 1, 1, 1)
+        self.gridLayout_2.addWidget(self.splitter, 0, 2, 1, 1)
+        self.line = QtWidgets.QFrame(self.gridLayoutWidget)
+        self.line.setFrameShape(QtWidgets.QFrame.VLine)
+        self.line.setFrameShadow(QtWidgets.QFrame.Sunken)
+        self.line.setObjectName("line")
+        self.gridLayout_2.addWidget(self.line, 0, 1, 1, 1)
         MainWindow.setCentralWidget(self.centralwidget)
         self.menubar = QtWidgets.QMenuBar(MainWindow)
         self.menubar.setGeometry(QtCore.QRect(0, 0, 504, 29))

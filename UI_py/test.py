@@ -138,6 +138,4 @@ class Ui_MainWindow(object):
         self.actionSetup.setToolTip(_translate("MainWindow", "设置"))
         self.actionHelp.setText(_translate("MainWindow", "帮助"))
         self.actionHelp.setToolTip(_translate("MainWindow", "帮助"))
-import background_rc
-import icon_rc
-import label_rc
+
