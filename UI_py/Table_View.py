@@ -9,12 +9,16 @@
 
 
 from PyQt5 import QtCore, QtGui, QtWidgets
+from PyQt5.QtCore import Qt
+from PyQt5.QtWidgets import QDialog
+import UI_py.New_Build
 
 
 class Ui_MainWindow(object):
     def setupUi(self, MainWindow):
         MainWindow.setObjectName("MainWindow")
-        MainWindow.resize(1045, 821)
+        MainWindow.resize(900, 720)
+        MainWindow.setMinimumSize(QtCore.QSize(900, 720))
         font = QtGui.QFont()
         font.setFamily("微软雅黑")
         font.setPointSize(9)
@@ -51,6 +55,7 @@ class Ui_MainWindow(object):
         self.New_Build_button.setSizePolicy(sizePolicy)
         self.New_Build_button.setMaximumSize(QtCore.QSize(16777215, 16777215))
         self.New_Build_button.setObjectName("New_Build_button")
+        self.New_Build_button.clicked.connect(self.new_build)
         self.gridLayout_2.addWidget(self.New_Build_button, 0, 0, 1, 1)
         self.splitter = QtWidgets.QSplitter(self.gridLayoutWidget)
         self.splitter.setOrientation(QtCore.Qt.Vertical)
@@ -857,7 +862,7 @@ class Ui_MainWindow(object):
         self.tabWidget.addTab(self.tab_6, "")
         MainWindow.setCentralWidget(self.centralwidget)
         self.menubar = QtWidgets.QMenuBar(MainWindow)
-        self.menubar.setGeometry(QtCore.QRect(0, 0, 1045, 26))
+        self.menubar.setGeometry(QtCore.QRect(0, 0, 900, 26))
         self.menubar.setObjectName("menubar")
         MainWindow.setMenuBar(self.menubar)
         self.statusbar = QtWidgets.QStatusBar(MainWindow)
@@ -963,3 +968,13 @@ class Ui_MainWindow(object):
         self.label_35.setText(_translate("MainWindow", "腰部KOL"))
         self.label_36.setText(_translate("MainWindow", "尾部KOL"))
         self.tabWidget.setTabText(self.tabWidget.indexOf(self.tab_6), _translate("MainWindow", "最终推荐方案"))
+
+
+    def new_build(self):
+        Dialog = QDialog()
+        ui = UI_py.New_Build.Ui_Dialog()
+        ui.setupUi(Dialog)
+        Dialog.setWindowTitle("新建咨询")
+        Dialog.setWindowModality(Qt.ApplicationModal)
+        Dialog.exec_()
+        Dialog.show()

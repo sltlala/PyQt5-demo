@@ -6,6 +6,8 @@
 from PyQt5.QtWidgets import QApplication, QMainWindow
 import sys
 import UI_py.Table_View
+import UI_py.New_Build
+
 
 if __name__ == '__main__':
     app = QApplication(sys.argv)  # 创建应用程序对象

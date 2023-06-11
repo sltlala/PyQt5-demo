@@ -29,7 +29,7 @@
    </font>
   </property>
   <property name="windowTitle">
-   <string>Dialog</string>
+   <string>新建咨询</string>
   </property>
   <widget class="QDialogButtonBox" name="buttonBox">
    <property name="geometry">
