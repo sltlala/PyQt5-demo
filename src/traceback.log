@@ -1,0 +1,13 @@
+Traceback (most recent call last):
+   File "D:\Python_Program\PyQt5-demo\src\QuickCut.py", line 3746, in <module>
+    main()
+    ^^^^^^
+   File "D:\Python_Program\PyQt5-demo\src\QuickCut.py", line 3721, in main
+    language = checkDBLanguage()  # 得到已设置的语言
+               ^^^^^^^^^^^^^^^^^
+   File "D:\Python_Program\PyQt5-demo\src\QuickCut.py", line 3694, in checkDBLanguage
+    return result.fetchone()[0]
+           ~~~~~~~~~~~~~~~~~^^^
+ TypeError: 'NoneType' object is not subscriptable
+ 
+请将以上信息发给1292756898@qq.com，或提交到https://github.com/HaujetZhao/QuickCut/issues

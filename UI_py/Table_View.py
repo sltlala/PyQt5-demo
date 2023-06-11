@@ -33,6 +33,8 @@ class Ui_MainWindow(object):
         self.tabWidget.setFont(font)
         self.tabWidget.setTabShape(QtWidgets.QTabWidget.Rounded)
         self.tabWidget.setObjectName("tabWidget")
+
+
         self.tab = QtWidgets.QWidget()
         font = QtGui.QFont()
         font.setFamily("微软雅黑")
@@ -72,6 +74,8 @@ class Ui_MainWindow(object):
         self.line.setObjectName("line")
         self.gridLayout_2.addWidget(self.line, 0, 2, 1, 1)
         self.tabWidget.addTab(self.tab, "")
+
+
         self.tab_2 = QtWidgets.QWidget()
         font = QtGui.QFont()
         font.setFamily("微软雅黑")
@@ -238,6 +242,8 @@ class Ui_MainWindow(object):
         self.line_2.setFrameShadow(QtWidgets.QFrame.Sunken)
         self.line_2.setObjectName("line_2")
         self.tabWidget.addTab(self.tab_2, "")
+
+
         self.tab_3 = QtWidgets.QWidget()
         font = QtGui.QFont()
         font.setFamily("微软雅黑")
@@ -384,6 +390,8 @@ class Ui_MainWindow(object):
         self.label_3.setStyleSheet("background: rgb(255, 255, 255);")
         self.label_3.setObjectName("label_3")
         self.tabWidget.addTab(self.tab_3, "")
+
+
         self.tab_4 = QtWidgets.QWidget()
         font = QtGui.QFont()
         font.setFamily("微软雅黑")
@@ -582,6 +590,8 @@ class Ui_MainWindow(object):
         self.graphicsView_3.setGeometry(QtCore.QRect(0, 390, 951, 311))
         self.graphicsView_3.setObjectName("graphicsView_3")
         self.tabWidget.addTab(self.tab_4, "")
+
+
         self.tab_8 = QtWidgets.QWidget()
         font = QtGui.QFont()
         font.setFamily("微软雅黑")
@@ -650,6 +660,8 @@ class Ui_MainWindow(object):
         self.label_26.setGeometry(QtCore.QRect(20, 400, 111, 31))
         self.label_26.setObjectName("label_26")
         self.tabWidget.addTab(self.tab_8, "")
+
+
         self.tab_5 = QtWidgets.QWidget()
         font = QtGui.QFont()
         font.setFamily("微软雅黑")
@@ -753,6 +765,8 @@ class Ui_MainWindow(object):
         self.pushButton_4.setGeometry(QtCore.QRect(370, 670, 111, 31))
         self.pushButton_4.setObjectName("pushButton_4")
         self.tabWidget.addTab(self.tab_5, "")
+
+
         self.tab_6 = QtWidgets.QWidget()
         font = QtGui.QFont()
         font.setFamily("微软雅黑")
@@ -860,6 +874,8 @@ class Ui_MainWindow(object):
         self.label_36.setObjectName("label_36")
         self.verticalLayout_4.addWidget(self.label_36)
         self.tabWidget.addTab(self.tab_6, "")
+
+
         MainWindow.setCentralWidget(self.centralwidget)
         self.menubar = QtWidgets.QMenuBar(MainWindow)
         self.menubar.setGeometry(QtCore.QRect(0, 0, 900, 26))
